@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-03-28
 type: landing
 
 sections:
@@ -234,15 +234,15 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: |-
-        For any exciting topic ideas or projects or brain storming over a cup of coffee, you can write to me on
-      # Contact (add or remove contact options as necessary)
-      email: chaitanya.b.hebbal@gmail.com
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     subtitle:
+  #     text: |-
+  #       For any exciting topic ideas or projects or brain storming over a cup of coffee, you can write to me on
+  #     # Contact (add or remove contact options as necessary)
+  #     # email: chaitanya.b.hebbal@gmail.com
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
