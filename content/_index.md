@@ -40,7 +40,7 @@ sections:
   #   content:
   #     # Choose a user profile to display (a folder name within `content/authors/`)
   #     username: admin
-  #     # Override your bio text from `authors/admin/_index.md`?
+      # Override your bio text from `authors/admin/_index.md`?
   #     text:
   # - block: features
   #   content:
@@ -135,7 +135,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      # title: Recent Posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)

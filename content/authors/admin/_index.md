@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Chaitanya Hebbal
+title: ChaY
 
 # Full name (for SEO)
 first_name: Chaitanya
-last_name: Hebbal
+last_name: H
 
 # Status emoji
 status:
@@ -14,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Software Engineer - Robotics
+# role: Software Engineer - Robotics
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Taurob GmbH
-    url: https://www.taurob.com/
+# organizations:
+#   - name: Taurob GmbH
+#     url: https://www.taurob.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include robotics and AI for finance.
+# bio: In search of interesting problems.
 
 # Interests to show in About widget
 interests:
@@ -56,25 +56,25 @@ social:
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #   icon_pack: fas
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/chebbal
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/chebbal
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 ---
-
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+In search of interesting problems
+<!-- A robotics engineer in pursuit of objectives, with regret minimization as the optimiser metric to navigate the search space of actions to execute. -->
 {style="text-align: justify;"}
