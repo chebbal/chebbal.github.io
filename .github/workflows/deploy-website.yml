@@ -1,0 +1,42 @@
+name: deploy website
+
+# We will run the actions whenever something
+# is pushed to the branch 'builder'
+on:
+  push:
+    branches:
+      - builder
+
+jobs:
+
+  # Our action is called 'deploy' and runs on Ubuntu 18.04
+  deploy:
+    runs-on: ubuntu-18.04
+
+    # The action executes the following steps
+    steps:
+
+      # It fetch our repository and its submodules
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      # It then set up Hugo Extended
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+          extended: true
+
+      # It runs Hugo to generate the website
+      - name: Build
+        run: hugo --minify
+
+      # It copies the content of the 'public' folder to the branch 'master'
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master
