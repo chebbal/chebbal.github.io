@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ChaY
+title: Chaitanya
 
 # Full name (for SEO)
 first_name: Chaitanya
@@ -26,8 +26,11 @@ superuser: true
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Robotics
+  - AI for robotics 
+  - SLAM
+  - State Estimation 
+  - MLops 
+  - Kernel Development
 
 # Education to show in About widget
 education:
@@ -75,6 +78,6 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-In search of interesting problems
+I am driven by curiosity to explore and assimilate knowledge on a wide array of topics ranging from pure programming and robotics to philosophy and existential questions. I am always looking out to connect and collaborate with people who share passion to build innovative products and services.  
 <!-- A robotics engineer in pursuit of objectives, with regret minimization as the optimiser metric to navigate the search space of actions to execute. -->
 {style="text-align: justify;"}
