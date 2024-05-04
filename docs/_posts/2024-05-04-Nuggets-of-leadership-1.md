@@ -1,4 +1,4 @@
-## An episode from ramayana
+## An episode from Ramayana
 
 I find the first meeting between Rama and Sugreeva to be filled with lessons for forging, setting expectations, assessing the capabilities and intent of the involved actors, that should be inculcated in our activities in everyday life, be it personal or professional. 
 
