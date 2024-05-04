@@ -16,7 +16,7 @@ Sugreeva then suggests Hanuman to go and meet the two kshatriya princes, talk to
 
 _**Lesson 4:** On a fact-finding mission, never disclose your identity and purpose._
 
-_**Lesson 5:** Communicate like Hanuman `:pray:`_
+_**Lesson 5:** Communicate like Hanuman :pray:_
 
 Sugreeva arrives and meets the brothers. He disclose his identity and the circumstances that lead to his present state. Just like Rama, Sugreeva is separated from wife who is forcibly abducted by Vali. Since both are in similar state, they agree to forge friendship and help each other out.
 
@@ -29,4 +29,4 @@ _**Lesson 7:** Get all the facts in front of you, before you plan the next cours
 Sugreeva is happy that Rama has agreed to help him, but he is not aware of Rama's ability. So he narrates ro Rama about Vali's abilities(with Dundhubi's story) and puts a small test to Rama to cut the seven Sala trees with his archery. Rama humbly accepts the challenge, he not only cuts the Sala trees with just one arrow, before doing that he throws up the Dundhubhi's skeleton through his toe a Yojana away. Sugreeva is convinced by this.
 
 _**Lesson 8:** Test the abilities of your team or associates before you give them major goals. The tenet "Actions speak louder than words" always holds true._
-Jai Shree Ram `:pray:`
+Jai Shree Ram :pray:
