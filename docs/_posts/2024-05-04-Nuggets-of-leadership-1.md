@@ -4,8 +4,6 @@ title:  "An episode from Ramayana"
 date:   2024-05-04 23:13:09 +0100
 categories: leadership
 ---
-## An episode from Ramayana
-
 I find the first meeting between Rama and Sugreeva to be filled with lessons for forging, setting expectations, assessing the capabilities and intent of the involved actors, that should be inculcated in our activities in everyday life, be it personal or professional. 
 
 Background: Sita has been kidnapped by Ravana and in search of Sita, Rama and Lakshmana travelled across the danadakaranya forest, they were then advised first by Jatayau to head south, then by a sage to visit Kishkinda and meet a person by name Sugreeva and he will help them in their mission to find and bring back Sita. Meanwhile, Sugreeva is banished from his family and kingdom and is taking shelter near kishkinda. He is scared of his brother Vali, fearing for his life. He is surrounded and protected by his friends and well-wishers, who patrol the place at all times.
