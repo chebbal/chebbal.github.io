@@ -4,15 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am passionate about robotics, computer vision, and artificial intelligence,specialized in building intelligent systems for real-world applications. My work blends advanced software engineering with cutting-edge AI to solve complex problems in robotics and autonomous systems. Beyond technology, I have a keen interest in literature and history, which inspires my curiosity and broadens my perspective. I enjoy exploring how innovation and human stories intersect, both in my professional projects and personal pursuits.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
