@@ -88,13 +88,12 @@ defaults:
       share: true
       related: true
       show_date: true
-      toc: true
-      toc_sticky: true
-      toc_label: "On this page"
-      excerpt_separator: <!--more-->
       header:
+        overlay_color: "#333"
         overlay_filter: 0.5
         show_overlay_excerpt: true
+      sidebar:
+        nav: "posts"
 
 # Archive Settings
 category_archive:
@@ -147,3 +146,7 @@ navigation:
       url: /categories/
     - title: "Tags"
       url: /tags/
+
+# Custom CSS
+extra_css:
+  - /assets/css/main.scss
