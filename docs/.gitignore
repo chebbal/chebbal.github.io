@@ -1,5 +1,8 @@
 _site
 .sass-cache
-.jekyll-cache
 .jekyll-metadata
+.jekyll-cache
 vendor
+
+# Do NOT ignore _pages directory
+!_pages
