@@ -57,7 +57,7 @@ locale: "en-US"
 author:
   name: "Chaitanya B Hebbal"
   avatar: "/assets/images/profile.jpg"
-  bio: "Senior Software Engineer specializing in robotics and AI"
+  bio: "Senior Engineer specializing in robotics and AI"
   location: "Munich, Germany"
   links:
     - label: "LinkedIn"
@@ -107,6 +107,17 @@ tag_archive:
 words_per_minute: 200
 
 # Navigation Settings
+navigation:
+  main:
+    - title: "About"
+      url: /about/
+    - title: "Posts"
+      url: /posts/
+    - title: "Categories"
+      url: /categories/
+    - title: "Tags"
+      url: /tags/
+
 defaults:
   # _posts
   - scope:
@@ -131,18 +142,6 @@ defaults:
 masthead_title: "Home"
 breadcrumbs: true
 search: true
-
-# Main Navigation
-navigation:
-  main:
-    - title: "About"
-      url: /about/
-    - title: "Posts"
-      url: /posts/
-    - title: "Categories"
-      url: /categories/
-    - title: "Tags"
-      url: /tags/
 
 atom_feed:
   hide: true

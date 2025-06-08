@@ -1,13 +1,12 @@
 ---
-layout: post
-title:  Yuddh Nahi Buddh
-date:   2024-11-28 23:13:09 +0100
+layout: single
+title: "Yuddh Nahi Buddh"
+date: 2024-08-27
 categories: 
- - leadership
- - Reflections
+  - leadership
+  - Reflections
 tags:
- - Reflections
-toc: true
+  - Reflections
 ---
 
 
@@ -21,5 +20,4 @@ Vision 2047 is clarion call given to the citizens of India in general and to the
 
 The history of last 400 years is replete with examples of nations wanting to be superpowers at the expense of the rest of the world. This approach has been successful but it is not sustainable. You can become the power center of the world by crushing the rest of world for sometime, but you cannot stay at the top for long. India offers an alternative path, where all nations have the opportunity to prosper and no one nation can bully others into submission. India does not aim to be a superpower in the conventional sense. India aims to play the role of guiding light i.e. Vishwaguru with soul of a friend helping the ones in need i.e. Vishwabandhu. Our ethos is not that of a conqueror but of a torch bearer to show the path forward for all those who seek for it.
 
-PM's address lasted for about an hour. Thereafter, he started making his way towards the exit, luckily I was standing at a vantage point where I had the chance to meet him and have an handshake with him. This is one of those unanticipated moments of your life where you meet the person you look upto in close quarters. A special moment thats now been added to my pool of precious memories that I will cherish forever.    
- 
+PM's address lasted for about an hour. Thereafter, he started making his way towards the exit, luckily I was standing at a vantage point where I had the chance to meet him and have an handshake with him. This is one of those unanticipated moments of your life where you meet the person you look upto in close quarters. A special moment thats now been added to my pool of precious memories that I will cherish forever.
