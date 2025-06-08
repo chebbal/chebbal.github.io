@@ -48,7 +48,7 @@ plugins:
 
 # Theme Settings
 minimal_mistakes_skin: "dark"
-search: true
+search: false
 
 # Site Settings
 locale: "en-US"
@@ -58,7 +58,7 @@ author:
   name: "Chaitanya B Hebbal"
   avatar: "/assets/images/profile.jpg"
   bio: "Senior Engineer specializing in Robotics and AI"
-  location: "Munich, Germany"
+  location: "Germany"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -110,7 +110,6 @@ words_per_minute: 200
 
 # Navigation
 masthead_title: "Home"
-search: true
 
 # Main Navigation Links
 data:
@@ -126,14 +125,7 @@ data:
       #   url: /tags/
 
 atom_feed:
-  hide: true
-
-minimal_mistakes_skin: "default"
-locale: "en-US"
-title: "Chay's log"
-subtitle: ""
-name: "Chaitanya B Hebbal"
-repository: "chebbal/chebbal.github.io"
+  hide: false
 
 header:
   overlay_color: "#000"
