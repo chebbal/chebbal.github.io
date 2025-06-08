@@ -127,25 +127,47 @@ defaults:
       layout: single
       author_profile: true
 
-# Navigation Tabs
+# Site Navigation
 masthead_title: "Home"
 breadcrumbs: true
 search: true
 
-# Main navigation links
 atom_feed:
   hide: true
 
-navigation:
-  main:
-    - title: "About"
-      url: /about/
-    - title: "Posts"
-      url: /posts/
-    - title: "Categories"
-      url: /categories/
-    - title: "Tags"
-      url: /tags/
+minimal_mistakes_skin: "default"
+locale: "en-US"
+title: "Chay's log"
+subtitle: ""
+name: "Chaitanya B Hebbal"
+repository: "chebbal/chebbal.github.io"
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+
+# Main Navigation Links
+after_footer_scripts:
+  - /assets/js/vendor/jquery/jquery-3.5.1.min.js
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chebbal"
+
+# Define Navigation Menu
+data:
+  navigation:
+    main:
+      - title: "About"
+        url: /about/
+      - title: "Posts"
+        url: /posts/
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
 
 # Custom CSS
 extra_css:
