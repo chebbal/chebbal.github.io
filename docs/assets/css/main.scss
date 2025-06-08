@@ -3,6 +3,23 @@
 
 @import "minimal-mistakes";
 
+// Reduce font sizes
+html {
+  font-size: 16px; // Reduced from default 20px
+
+  @include breakpoint($medium) {
+    font-size: 16px; // Reduced from default 18px
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // Reduced from default 20px
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px; // Reduced from default 22px
+  }
+}
+
 // Enhanced post styling
 .page__content {
   font-size: 1em;
