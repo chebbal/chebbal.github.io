@@ -27,9 +27,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chebbal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HebbalChaitanya
 github_username:  chebbal
+share: true
+social:
+  type: Person
+  links:
+    - "https://twitter.com/HebbalChaitanya"
+    - "https://linkedin.com/in/chaitanya-hebbal-21985339"
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jemoji
@@ -53,3 +59,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Add theme settings
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Add author information
+author:
+  name: "Chaitanya B Hebbal"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Senior Software Engineer specializing in robotics and AI"
+  location: "Munich, Germany"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chaitanya-hebbal-21985339/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chebbal"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/HebbalChaitanya"
