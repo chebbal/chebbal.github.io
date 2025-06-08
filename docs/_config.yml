@@ -47,7 +47,7 @@ plugins:
   - jekyll-remote-theme
 
 # Theme Settings
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dark"
 search: true
 
 # Site Settings
