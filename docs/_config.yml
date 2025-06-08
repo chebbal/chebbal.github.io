@@ -70,6 +70,43 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/HebbalChaitanya"
 
+# Posts Settings
+paginate: 5
+paginate_path: /page:num/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+      excerpt_separator: <!--more-->
+      header:
+        overlay_filter: 0.5
+        show_overlay_excerpt: true
+
+# Archive Settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Reading Time Settings
+words_per_minute: 200
+
 # Navigation Settings
 defaults:
   # _posts

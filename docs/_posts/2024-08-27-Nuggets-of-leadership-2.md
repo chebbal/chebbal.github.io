@@ -2,7 +2,12 @@
 layout: post
 title:  Yuddh Nahi Buddh
 date:   2024-11-28 23:13:09 +0100
-categories: personal
+categories: 
+ - leadership
+ - Reflections
+tags:
+ - Reflections
+toc: true
 ---
 
 

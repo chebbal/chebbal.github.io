@@ -2,7 +2,12 @@
 layout: post
 title:  "An episode from Ramayana"
 date:   2024-05-04 23:13:09 +0100
-categories: leadership
+categories: 
+ - leadership
+ - Ramayana
+tags:
+ - leadership
+toc: true
 ---
 I find the first meeting between Rama and Sugreeva to be filled with lessons for forging, setting expectations, assessing the capabilities and intent of the involved actors, that should be inculcated in our activities in everyday life, be it personal or professional. 
 
