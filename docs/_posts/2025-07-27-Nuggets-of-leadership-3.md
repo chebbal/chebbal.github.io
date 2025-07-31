@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Nuggets of Leadership 3 - Lessons from Hanuman"
+title: "Nuggets of Leadership 2 - Lessons from Hanuman"
 date: 2025-07-27
 categories: 
   - leadership
