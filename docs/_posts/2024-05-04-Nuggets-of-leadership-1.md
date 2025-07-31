@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Nuggets of Leadership 1"
+title: "Nuggets of Leadership 1 - Lessons from Sugreeva"
 date: 2024-05-04
 categories: 
   - leadership
