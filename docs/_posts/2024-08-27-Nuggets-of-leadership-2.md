@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Yuddh Nahi Buddh"
+title: My take on PM Modi's public address in Vienna 
 date: 2024-08-27
 categories: 
   - leadership
