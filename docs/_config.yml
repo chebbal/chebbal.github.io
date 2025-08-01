@@ -119,6 +119,10 @@ data:
         url: /about/
       - title: "Posts"
         url: /posts/
+      - title: "Paper Reviews"
+        url: /paper-reviews/
+      - title: "Book Summaries"
+        url: /book-summaries/
       # - title: "Categories"
       #   url: /categories/
       # - title: "Tags"
