@@ -7,9 +7,7 @@ layout: single
 author_profile: false
 ---
 
-## Key Idea
-
-Steps to practice and develop critical thinking
+**🎯 Core Message:** Steps to practice and develop critical thinking
 
 ## Summary
 
