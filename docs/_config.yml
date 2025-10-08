@@ -108,26 +108,6 @@ tag_archive:
 # Reading Time Settings
 words_per_minute: 200
 
-# # Navigation
-# masthead_title: "Home"
-
-# Main Navigation Links
-data:
-  navigation:
-    main:
-      - title: "About"
-        url: /about/
-      - title: "Posts"
-        url: /posts/
-      - title: "Paper Reviews"
-        url: /paper-reviews/
-      - title: "Book Summaries"
-        url: /book-summaries/
-      # - title: "Categories"
-      #   url: /categories/
-      # - title: "Tags"
-      #   url: /tags/
-
 atom_feed:
   hide: false
 

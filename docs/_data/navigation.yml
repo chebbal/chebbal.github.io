@@ -1,0 +1,12 @@
+# Main navigation links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "Paper Reviews"
+    url: /paper-reviews/
+  - title: "Book Summaries"
+    url: /book-summaries/
+  - title: "Projects"
+    url: /projects/
