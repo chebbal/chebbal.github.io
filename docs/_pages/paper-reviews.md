@@ -3,26 +3,46 @@ title: "Paper Reviews"
 permalink: /paper-reviews/
 layout: single
 author_profile: false
+classes: wide
 ---
 
 In-depth reviews and analysis of research papers across various domains.
 
-{% assign paper_posts = site.posts | where_exp: "post", "post.categories contains 'paper-review'" %}
-{% if paper_posts.size > 0 %}
-  {% for post in paper_posts %}
-    <article class="archive__item">
-      <h3 class="archive__item-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p class="archive__item-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
-      <p class="archive__item-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        {% if post.tags.size > 0 %}
-          <br>Tags: {{ post.tags | join: ", " }}
-        {% endif %}
-      </p>
-    </article>
+<div class="feature__wrapper">
+  {% for post in site.posts %}
+    {% if post.categories contains 'paper-review' %}
+      <div class="feature__item">
+        <div class="archive__item">
+          <div class="archive__item-teaser">
+            <h3 class="archive__item-title" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" | strip_html }}</a>
+            </h3>
+          </div>
+          <div class="archive__item-body">
+            {% if post.excerpt %}
+              <div class="archive__item-excerpt" itemprop="description">
+                {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+              </div>
+            {% endif %}
+            <p class="archive__item-meta">
+              <small>
+                <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}
+                {% if post.tags.size > 0 %}
+                  <br><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ post.tags | join: ", " }}
+                {% endif %}
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
   {% endfor %}
-{% else %}
-  <p>No paper reviews available yet. Check back soon!</p>
+</div>
+
+{% assign paper_posts = site.posts | where: 'categories', 'paper-review' %}
+{% if paper_posts.size == 0 %}
+<div class="notice--info">
+  <h4>No Paper Reviews Yet</h4>
+  <p>Check back soon for paper reviews and analysis!</p>
+</div>
 {% endif %}
