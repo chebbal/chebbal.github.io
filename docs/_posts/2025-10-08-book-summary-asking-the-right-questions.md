@@ -1,10 +1,10 @@
 ---
-title: "Book Summary: Asking the Right Questions"
+title: "Asking the Right Questions"
 date: 2025-10-08
 categories: book-summary
 tags: [critical-thinking]
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 ## Key Idea
