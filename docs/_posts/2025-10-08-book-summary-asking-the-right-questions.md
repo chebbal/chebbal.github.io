@@ -11,7 +11,7 @@ author_profile: false
 
 ## Summary
 
-### Chapter 1: The Benefit of Asking the Right Questions
+### Chapter 1:
 
 As a critical thinker you are willing to agree with others, but first you need some convincing answers to your questions.
 
@@ -37,7 +37,7 @@ Our normal tendency to listen to only those with similar value priorities needs 
 - **Respect for good reasoning** wherever you find it
 - **Act with confidence** based on your beliefs, but hold your own conclusions with only that degree of firmness that permits you to still wonder to yourself, "Might I be wrong"?
 
-### Chapter 2: Critical Thinking as a Social Activity
+### Chapter 2:
 
 **Key concepts:**
 - Argument = conclusion + reasons supporting it
@@ -57,7 +57,7 @@ The habit we want to form is asking ourselves, "Why am I thinking what I am thin
 - **Curse of knowledge** → we cannot recall what it is like when we did not know what we now know
 - **Wishful thinking** → we need to keep asking "Is this true because I want it to be true or is there convincing evidence that it's true?"
 
-### Chapter 3: What Are the Issue and the Conclusion?
+### Chapter 3:
 
 **Core idea:** What is the issue and the conclusion?
 
@@ -81,7 +81,7 @@ We cannot critically evaluate until we find the conclusion.
    - Examples, facts, statistics, definitions, background information, evidence
 5. Check the context of communication and the author's background
 
-### Chapter 4: What Are the Reasons?
+### Chapter 4:
 
 **Key idea:** What are the reasons?
 
@@ -93,7 +93,7 @@ You cannot determine the worth of a conclusion until you identify the reason.
 
 Ideally, reasons are the tool by which conclusions are shaped and modified, not the other way around.
 
-### Chapter 5: What Words or Phrases Are Ambiguous?
+### Chapter 5:
 
 **Key idea:** What words or phrases are ambiguous?
 
@@ -111,7 +111,7 @@ Get into the habit of asking "What do you mean by that?" and "Could any of the w
 
 No one has right to be believed if he cannot provide you with a clear picture of reasoning.
 
-### Chapter 6: What Are the Assumptions?
+### Chapter 6:
 
 **Key idea:** What are the assumptions?
 
