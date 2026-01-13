@@ -53,13 +53,10 @@ Takeaways from the address:
 
    > 🏔️ **Inspiration:** From tragedy to triumph—Arunima Sinha showed the world that your circumstances don't define you; your decisions and commitment do.
 
-11. Total commitment to your decision gives tremendous willpower.
+11. 🔥 **Power of Commitment:** Complete dedication to your decisions unlocks tremendous willpower within you.
 
-   > 🔥 **Power of Commitment:** Complete dedication to your decisions unlocks tremendous willpower within you.
 
-12. Always remember, nothing is permanent in life, life is a perpetual struggle of ups and downs.
-
-   > 📌 **Remember:** Nothing is permanent—life is a continuous cycle of highs and lows. Embrace both.
+12. 📌 Always remember, nothing is permanent in life, life is a perpetual struggle of ups and downs. Embrace both
 
 13. As Napoleon Bonaparte said on leadership **"I am not afraid of an army of 1000 lions being led by a sheep. I am terrified of an army of 1000 sheep being led by a lion."** Quality of Leadership matters.
 
