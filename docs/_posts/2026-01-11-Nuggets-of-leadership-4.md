@@ -39,13 +39,9 @@ Takeaways from the address:
 
 6. Today's highly connected world is full of motivation talks, reels, videos and courses for people looking for motivation or self-help. Getting motivated is only a small fraction of the story. Motivation is temporary, it can last anywhere between few hours to a week depending on the person. It is our responsibility to translate motivation into discipline. Only discipline is permanent. Now the question arises **"How do we turn our motivation into discipline?"** The answer lies in writing down your motivations into decisions that you promise yourself to execute. Turn these decisions into actions that can be integrated into your daily habits. Perform these actions as if they are essential for your survival. follow the 21-day rule of habit forming. Once these decision become your habits, discipline is now part of your life.
 
-7. Act on your decisions now. Best time was yesterday, Next best time is NOW!!!. Never postpone to act on your decisions, otherwise this will become a habit and habits are hard to overcome.
+7. ⏰ **Urgency:** Act on your decisions now. Best time was yesterday, Next best time is NOW!!!. Never postpone to act on your decisions, otherwise this will become a habit and habits are hard to overcome.
 
-   > ⏰ **Urgency:** The best time was yesterday, the next best time is NOW! Procrastination becomes a habit that's hard to break.
-
-8. Tenacity is an essential skill. Never quit, if the going gets tough, slow down or take a pause,but NEVER QUIT or Change the GOAL!!
-
-   > 💪 **Perseverance:** When the going gets tough, slow down or pause—but NEVER QUIT or change the GOAL!
+8. 💪 **Perseverance:** Tenacity is an essential skill. Never quit, if the going gets tough, slow down or take a pause,but NEVER QUIT or Change the GOAL!!
 
 9. Believe in yourself. As Swami Vivekananda said **"The old scriptures state a Believer is one who believes in god. The new scriptures state a Believer is one who believes in himself only then he believes in god."**
 
