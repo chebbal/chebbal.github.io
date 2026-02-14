@@ -23,7 +23,7 @@ title: Chay's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   A blog on my reflections, experiments, and learnings.
 domain: "chebbal.github.io"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chebbal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HebbalChaitanya
 github_username:  chebbal
