@@ -45,10 +45,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Theme Settings
 minimal_mistakes_skin: "dark"
-search: false
+search: true
 
 # Site Settings
 locale: "en-US"
@@ -85,7 +86,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       share: true
       related: true
@@ -95,7 +96,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 # Archive Settings
 category_archive:
@@ -124,6 +125,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chebbal"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # Custom CSS
 extra_css:

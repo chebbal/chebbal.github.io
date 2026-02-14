@@ -3,49 +3,95 @@
 
 @import "minimal-mistakes";
 
-// Reduce font sizes
+// Professional Typography: Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
 html {
-  font-size: 16px; // Reduced from default 20px
+  font-size: 16px; 
 
   @include breakpoint($medium) {
-    font-size: 16px; // Reduced from default 18px
+    font-size: 16px; 
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // Reduced from default 20px
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 16px; // Reduced from default 22px
+    font-size: 17px; 
   }
 }
 
-// Enhanced post styling
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+// Clean Layout & Spacing
 .page__content {
-  font-size: 1em;
+  font-size: 1.05em;
   
   h2 {
-    border-bottom: 1px solid #f2f3f3;
-    padding-bottom: 0.5em;
-    margin-top: 2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3em;
+    margin-top: 2.5em;
+    font-weight: 600;
   }
   
   p {
-    margin-bottom: 1.5em;
-    line-height: 1.8;
+    margin-bottom: 1.6em;
+    line-height: 1.75;
+    color: #cbd5e0; // Slightly softer white for contrast in dark mode
   }
   
   blockquote {
-    margin: 2em 1em;
-    padding: 1em;
-    border-left: 0.25em solid #6f777d;
-    background-color: #f8f9fa;
+    margin: 2.5em 0;
+    padding: 1.5em;
+    border-left: 4px solid #4a5568;
+    background-color: rgba(255, 255, 255, 0.03);
+    font-style: italic;
+    color: #a0aec0;
+  }
+}
+
+// Subtle Sidebar Refinement
+.sidebar {
+  @include breakpoint($large) {
+    padding-right: 2em;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+.author__name {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+// Minimalist Project Grid Refinement
+.grid__item {
+  transition: transform 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  .archive__item-title {
+    margin-top: 0.5em;
+    font-weight: 600;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #a0aec0;
   }
 }
 
 // Better readable width for content
 .wide .page__content {
   @media (min-width: 64em) {
-    padding-right: 100px;
+    padding-right: 80px;
   }
 }
