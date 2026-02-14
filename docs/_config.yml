@@ -134,4 +134,4 @@ collections:
 
 # Custom CSS
 extra_css:
-  - /assets/css/main.scss
+  - /assets/css/main.css
