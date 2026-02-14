@@ -10,4 +10,10 @@ sidebar:
     content: "ROS1/2, Pytorch, LIDAR, RGB-D"
 ---
 
-Developed robust 2D and 3D object detection systems for autonomous robots operating in industrial environments. By adapting foundational vision models and integrating multi-modal sensor data (LIDAR/RGB-D), the system achieved high reliability in complex, real-world conditions.
+Developed robust 2D and 3D object detection systems for **Taurob**, specializing in autonomous robots for complex industrial and hazardous environments.
+
+### Technical Depth & Execution:
+*   **Detection Architecture:** Researched and adapted foundational vision models for real-time 2D/3D object detection.
+*   **3D Sensor Integration:** Evaluated and integrated multi-modal sensor suites (LIDAR, RGB-D cameras) to ensure fail-safe perception in low-visibility industrial settings.
+*   **Engineering Impact:** Enabled robots to navigate and interact with industrial infrastructure autonomously and safely.
+*   **Stack:** ROS 1/2, Pytorch, OpenCV, PCL (Point Cloud Library).

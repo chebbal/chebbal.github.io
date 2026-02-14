@@ -10,4 +10,10 @@ sidebar:
     content: "C++, ROS, Kinematics"
 ---
 
-Researched and implemented a custom **Inverse Kinematics (IK) solver** for a 5-DOF robotic arm mounted on a mobile base. This involved handling the unique constraints of the mobile platform to ensure precise and efficient arm positioning for manipulation tasks.
+Built a specialized **Inverse Kinematics (IK) solver** for a 5-DOF robotic arm mounted on a mobile platform.
+
+### Technical Depth & Execution:
+*   **Solver Implementation:** Built and adapted Inverse Kinematics libraries to handle the specific geometric constraints and reachability profiles of a 5-DOF arm.
+*   **Mobile Integration:** Ensured the IK solver accounted for the stability and movement of the mobile base during manipulation tasks.
+*   **Engineering Impact:** Enabled precise payload handling and tool positioning for autonomous industrial tasks.
+*   **Stack:** C++, ROS, Orocos KDL or similar kinematics frameworks.

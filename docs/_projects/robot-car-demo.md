@@ -10,4 +10,10 @@ sidebar:
     content: "C++, ADAS, Robotics"
 ---
 
-As the POC project lead, I guided a team to build an autonomous robot car demonstrator. This project served as a technical showcase for higher management, successfully proving the team's capabilities in ADAS and autonomous systems development.
+As the **POC Project Lead**, I guided a multi-disciplinary team to build an autonomous robot car demonstrator at **Elektrobit**.
+
+### Technical Depth & Execution:
+*   **Team Leadership:** Directed the hardware and software development of a scaled autonomous vehicle to showcase the team's technical capabilities.
+*   **System Integration:** Managed the integration of ADAS perception and control modules into a cohesive mobile platform.
+*   **Engineering Impact:** Successfully demonstrated autonomous capabilities to executive management, proving the technical viability of the team's approach.
+*   **Stack:** C++, ADAS toolchains, Mobile Robotics.

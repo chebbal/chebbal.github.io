@@ -12,4 +12,9 @@ sidebar:
     content: "Pytorch, HF Transformers, Jamba, Mamba, Llama3"
 ---
 
-At **Recogni Gmbh**, I researched and integrated state-of-the-art Large Language Models into a centralized model hub. This infrastructure enabled rapid experimentation and benchmarking of models like Jamba, Mamba, and Llama3 for specialized applications.
+At **Recogni Gmbh**, I spearheaded the research and integration of state-of-the-art Large Language Models into a high-performance model hub.
+
+### Technical Depth & Execution:
+*   **Model Integration:** Integrated foundational models including **Jamba**, **Mamba**, and **Llama3** for research and internal experimentation.
+*   **Engineering Impact:** Built and managed the model hub infrastructure, enabling researchers to conduct rapid experiments, benchmarking, and cross-model performance analysis.
+*   **Stack:** Python, Hugging Face Transformers, Pytorch, Model Hub architectures.
