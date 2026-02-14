@@ -1,8 +1,13 @@
 ---
 title: "Vision DL Model for Automotive ASICs"
-excerpt: "Adapted and quantized MMEngine-based vision models for deployment on custom automotive AI hardware."
+excerpt: "Adapting MMEngine based vision models for custom automotive ASICs via quantization and export."
 categories: projects
-tags: [Computer Vision, ASIC, Recogni]
+tags: [Computer Vision, ASIC, Quantization, MMEngine]
+sidebar:
+  - title: "Organization"
+    content: "Recogni Gmbh"
+  - title: "Technologies"
+    content: "Python, MMEngine, Quantization, C++"
 ---
 
-Optimized and quantized sophisticated vision models for seamless deployment on custom automotive ASICs, meeting rigorous latency and power specifications.
+Adapted a high-performance vision model based on **MMEngine** for a large automotive OEM. The project involved quantization and exporting the model to run efficiently on custom AI accelerators (ASICs), meeting strict latency and power requirements for real-world autonomous driving.

@@ -1,8 +1,13 @@
 ---
 title: "Autonomous Robot Car Demo"
-excerpt: "Led a multi-disciplinary team to build a scaled autonomous vehicle demonstrator at Elektrobit."
+excerpt: "Leading the development of a POC robot car to demonstrate autonomous capabilities."
 categories: projects
-tags: [Robotics, Leadership, Elektrobit]
+tags: [Robotics, POC, Autonomous Driving, Elektrobit]
+sidebar:
+  - title: "Organization"
+    content: "Elektrobit"
+  - title: "Technologies"
+    content: "C++, ADAS, Robotics"
 ---
 
-Guided the development of a POC autonomous robot car, successfully showcasing team capabilities in ADAS and system integration to executive management.
+As the POC project lead, I guided a team to build an autonomous robot car demonstrator. This project served as a technical showcase for higher management, successfully proving the team's capabilities in ADAS and autonomous systems development.

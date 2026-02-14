@@ -1,8 +1,13 @@
 ---
 title: "Inverse Sensor Model Research"
-excerpt: "Master's thesis research on learning data-driven inverse sensor models for autonomous systems."
+excerpt: "Evaluating if inverse sensor models can be learned from raw sensor data using deep learning."
 categories: projects
-tags: [Research, Deep Learning, Thesis]
+tags: [Research, Machine Learning, Sensors, Thesis]
+sidebar:
+  - title: "Organization"
+    content: "Bonn-Rhein-Sieg University / Elektrobit"
+  - title: "Technologies"
+    content: "Python, Deep Learning, Sensor Fusion"
 ---
 
-In collaboration with Elektrobit/Bonn-Rhein-Sieg University, I researched the feasibility of using deep learning to learn specialized inverse sensor models.
+My Master's thesis research focused on learning inverse sensor models directly from data. I evaluated the performance of learned models against traditional physical models, exploring the potential for deep learning to replace or augment manual sensor modeling in autonomous systems.
