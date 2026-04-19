@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Two stand-out conversations from Dhurandhar"
-date: 2024-05-04
+date: 2026-04-19
 categories: 
   - Thoughts
 tags:
