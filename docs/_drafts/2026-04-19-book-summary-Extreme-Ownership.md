@@ -1,0 +1,19 @@
+---
+title: "Extreme Ownership"
+date: 2026-04-19
+categories: book-summary
+tags: [leadership]
+layout: single
+author_profile: false
+---
+
+Synopsis:
+This book is based on premise that leadesrhip is critical ingredient either in combat or in business. The fundamental principles of leadership stay the same no matter the domain, only the stakes change. In combat, the consequences of your decisions/actions are immediately visible, while in other domains like business, you have some leeway to correct incorrect actions. The core idea of extreme ownership is that the buck stops with the leader. The only metric to evaluate leaders is to check if their mission was a success or failure. Unlike the conventional material on leadership that talks about different kinds of leaders, extreme ownership divides them into only two categories: Effective and Ineffective leaders. The ones who can achieve/execute their mission to a successful outcome are termed effective, while those who cannot are termed ineffective.
+
+Core Ideas that stick with me:
+
+1. **The leader needs to own the outcome, especially when the mission fails**. The mindset of leader should be one of acknowledging the shortcomings and learning from the experience. If a leader blames his sub-ordinates or situations other than himself, indirectly makes everyone around him aware of his ineffectiveness. An effective leader will own up during failures, while letting his usb-ordinates take centre-stage in success. I remember an anecdote from APJ Abdul Kalam's biography, when the SLV3 mission failed, the then ISRO chairman Satish Dhawan took full responsibility of failure while shielding the team from the press. When the next launch was a success, he gave complete credit to the team and Dr. Kalam recounts this incident as a great lesson in leadership. 
+
+2. **There are no bad teams, only bad leaders**. Another common sense and simple but profound idea. A great example is that of Indian defense policy. Prior to 2014, After every terorist attack, the then governments response would be to visit USA to complain and ask them to tell Pakistan to act on terrorists and their infrastructure working from tehir country. A nation of 1.2 Billion and one with largest military powers in the world, begging a superpower to act on a nation that is bankrupt and surviving on funds from USA and IMF and uisng those funds to cause mayhem in India. Look at the absudrdity of the reaction. Look at 2025, how the tides have turned, the rest of the world is now looking to india to broker peace in various conflicts and today we are the only country that are trusted by western and eastern powers, in addition to global south. So what changed in last 10 years. The structure is the same, the institutions are same, the people manning them are same, so what changed? Answer is one man: Narendra Damodardas Modi. A leader that India needed.
+
+3. **The quality of team is influenced by what the leader tolerates**. To build high performance and effective teams a leader must set high delivery standards for himself. This motivates the subordinates and junior leaders to emulate. This creates a chain reaction all the way down where the whole team owns up for their part of mission and delivery. An underperforming team member can slow down or impact the quality of delivery from the team. In these situations, if a leader tolerates a sub par result adn does not take corrective measures, it sends a wrong meesage to the entire team thart subpar results are okay. So what should a leader do? He can do two things: 1. provide resources or improvement support to udnerperforming team members. If the results stay the same, the Leader should be courageous enough to inform and let go the under performer. 2. He should find a suitable replacement for the same role.  
