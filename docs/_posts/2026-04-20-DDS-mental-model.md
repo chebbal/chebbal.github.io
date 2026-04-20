@@ -40,54 +40,58 @@ tags:
 
 <div class="mermaid">
 flowchart TD
-    APP["Your Application\npublisher.publish()\nsubscriber.on_data()"]
-    DDS["DDS Layer\nTopic / QoS / History / Liveliness"]
-    RTPS["RTPS Layer\nDATA · HEARTBEAT · ACKNACK · SPDP · SEDP"]
-    NET["UDP / TCP"]
-
-    APP --> DDS --> RTPS --> NET
-
-    subgraph Nodes
-        A["192.168.2.13\n(local node)"]
-        B["172.28.16.157\n(peer node)"]
-        C["172.28.16.176:7499\n(Fast DDS Discovery Server)"]
-        L["192.168.2.13\n(2nd local participant)"]
+    subgraph AppLayer["Application Layer"]
+        PUB["Publisher\npublish(sensor_data)\nTopic: /sensor\nQoS: reliable"]
+        SUB_L["Subscriber (local)\non_data(callback)\nTopic: /sensor"]
+        SUB_R["Subscriber (remote)\non_data(callback)\nTopic: /sensor"]
     end
 
-    subgraph Discovery["Discovery Phase"]
+    subgraph Discovery["Discovery Phase (TCP + UDP)"]
         D1["TCP handshake → .176:7499"]
-        D2["DATA(p) → loopback + .157\n(SPDP announce)"]
-        D3["642B → discovery server\n(forward DATA(p))"]
-        D4["138B + 690B ← server\n(peer registry)"]
+        D2["UDP: DATA(p) → loopback + .157\n(SPDP: announce participant)"]
+        D3["TCP: 642B → discovery server\n(forward DATA(p))"]
+        D4["TCP: 138B ← server\n(ACK)"]
+        D5["TCP: 690B ← server\n(peer registry: endpoints + QoS)"]
+        D6["SEDP match: topic + type + QoS\n(inside TCP tunnel)"]
     end
 
-    subgraph Reliability["Reliability Init"]
-        R1["HEARTBEAT x6 → loopback + .157"]
-        R2["DATA(m) → loopback + .157\n(first topic data)"]
-        R3["ACKNACK x14 in 2 bursts\n(NACK storm, resolved)"]
+    subgraph Reliability["Reliability Init (UDP)"]
+        R1["UDP: HEARTBEAT x6 → loopback + .157\n(writer: here are my sequence numbers)"]
+        R2["UDP: ACKNACK x14 ← loopback + .157\n(readers: missing seqN, resend)\n2 bursts 11ms apart — NACK storm"]
+        R3["UDP: retransmit DATA(m)\n(storm resolved)"]
     end
 
-    subgraph Steady["Steady State (every 100ms)"]
-        S1["DATA(p) → loopback + .157\n(SPDP keepalive)"]
-        S2["642B → discovery server"]
-        S3["138B + 690B ← server"]
-        S4["DATA(m) + HEARTBEAT\n(piggybacked)"]
-        S5["DATA(p) → loopback only\n(2nd local participant)"]
+    subgraph TopicExchange["Topic Data Exchange (UDP)"]
+        T1["UDP: DATA(m) → .157\n(remote subscriber receives sample)"]
+        T2["UDP: DATA(m) → loopback\n(local subscriber receives sample)"]
+        T3["UDP: DATA(m) + HEARTBEAT → loopback + .157\n(piggybacked: data + reliability check)"]
+        T4["UDP: ACKNACK ← loopback + .157\n(readers confirm — no missing samples)"]
     end
 
-    A -->|TCP| D1
-    A -->|RTPS/UDP| D2
-    A -->|TCP| D3
-    C -->|TCP| D4
+    subgraph Steady["Steady State every 100ms"]
+        S1["UDP: DATA(p) → loopback + .157\n(SPDP keepalive)"]
+        S2["TCP: 642B → discovery server"]
+        S3["TCP: 138B + 690B ← server"]
+        S4["UDP: DATA(p) → loopback only\n(2nd local participant)"]
+    end
 
-    D4 --> R1 --> R2 --> R3
+    PUB -->|"DDS match via SEDP"| SUB_L
+    PUB -->|"DDS match via SEDP"| SUB_R
 
-    R3 --> S1
-    S1 --> S2
-    C -->|TCP| S3
-    S3 --> S4
-    L -->|RTPS/UDP| S5
+    PUB --> D1 --> D2 --> D3 --> D4 --> D5 --> D6
+
+    D6 --> R1 --> R2 --> R3
+
+    R3 --> T1
+    R3 --> T2
+    T1 & T2 --> T3
+    T3 -->|"readers ACK"| T4
+
+    T4 --> S1 --> S2 --> S3
+    S3 --> T3
+    S1 --> S4
 </div>
+
 
 ## Packet Level
 
