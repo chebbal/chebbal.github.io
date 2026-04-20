@@ -96,19 +96,32 @@ flowchart TD
 ## Packet Level
 
 ```text
+── Discovery Phase ───────────────────────────────────────────────────────────────────────
 [TCP]  192.168.2.13  →  172.28.16.176:7499   SYN / SYN-ACK / ACK          (handshake)
 [TCP]  192.168.2.13  →  172.28.16.176:7499   68B each way                  (session init)
-[RTPS] 192.168.2.13  →  loopback + .157       DATA(p)                       (SPDP: announce self)
-[TCP]  192.168.2.13  →  172.28.16.176:7499   642B                           (DATA(p) → discovery server)
-[TCP]  172.28.16.176 →  192.168.2.13          138B + 690B                   (server: peer registry)
-[RTPS] 192.168.2.13  →  loopback + .157       HEARTBEAT x6                  (reliability init)
-[RTPS] 192.168.2.13  →  loopback + .157       DATA(m)                       (first topic data)
-[RTPS] 192.168.2.13  →  loopback + .157       ACKNACK x14 (2 bursts/11ms)   (NACK storm, resolved)
-── steady state every 100ms ──────────────────────────────────────────────────────────────
+[RTPS] 192.168.2.13  →  loopback + .157       DATA(p)                       (SPDP: announce participant)
+[TCP]  192.168.2.13  →  172.28.16.176:7499   642B                           (forward DATA(p) to server)
+[TCP]  172.28.16.176 →  192.168.2.13          138B                           (server ACK)
+[TCP]  172.28.16.176 →  192.168.2.13          690B                           (peer registry: endpoints + QoS)
+[TCP]  <inside tunnel>                         DATA(w) / DATA(r)             (SEDP: topic + type + QoS match)
+
+── Reliability Init ──────────────────────────────────────────────────────────────────────
+[RTPS] 192.168.2.13  →  loopback + .157       HEARTBEAT x6                  (writer: here are my sequence numbers)
+[RTPS] 192.168.2.13  →  loopback + .157       ACKNACK x14 in 2 bursts       (readers: missing seqN — NACK storm)
+[RTPS] 192.168.2.13  →  loopback + .157       DATA(m) retransmit            (storm resolved)
+
+── Topic Data Exchange ───────────────────────────────────────────────────────────────────
+[RTPS] 192.168.2.13  →  172.28.16.157         DATA(m)                       (remote subscriber: sample delivered)
+[RTPS] 192.168.2.13  →  192.168.2.13          DATA(m)                       (local subscriber: sample delivered)
+[RTPS] 192.168.2.13  →  loopback + .157       DATA(m) + HEARTBEAT           (piggybacked: data + reliability check)
+[RTPS] loopback + .157 → 192.168.2.13         ACKNACK                       (readers confirm — no missing samples)
+
+── Steady State (every 100ms) ────────────────────────────────────────────────────────────
 [RTPS] 192.168.2.13  →  loopback + .157       DATA(p)                       (SPDP keepalive)
 [TCP]  192.168.2.13  →  172.28.16.176:7499   642B                           (forward to server)
 [TCP]  172.28.16.176 →  192.168.2.13          138B + 690B                   (server response)
-[RTPS] 192.168.2.13  →  loopback + .157       DATA(m) [+HEARTBEAT piggyback](topic data)
+[RTPS] 192.168.2.13  →  loopback + .157       DATA(m) + HEARTBEAT           (topic data + reliability)
+[RTPS] loopback + .157 → 192.168.2.13         ACKNACK                       (readers confirm)
 [RTPS] 192.168.2.13  →  loopback only         DATA(p)                       (2nd local participant)
 ```
 
