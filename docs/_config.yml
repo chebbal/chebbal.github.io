@@ -48,7 +48,7 @@ plugins:
   - jekyll-seo-tag
 
 # Theme Settings
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "neon"
 search: true
 
 # Site Settings
