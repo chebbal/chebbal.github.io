@@ -1,8 +1,9 @@
 ---
 title: "Extreme Ownership"
 date: 2026-04-19
+last_modified_at: 2026-04-20
 categories: book-summary
-tags: [leadership]
+tags: [leadership, wip]
 layout: single
 author_profile: false
 ---
