@@ -34,7 +34,7 @@ tags:
 └─────────────────────────────────────┘
 </pre>
 
-## Example setup
+## Example setup - RTPS over TCP for discovery, data over UDP
 
 {% include mermaid.html %}
 
