@@ -48,7 +48,7 @@ plugins:
   - jekyll-seo-tag
 
 # Theme Settings
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "dark"
 search: true
 
 # Site Settings
@@ -58,7 +58,7 @@ locale: "en-US"
 author:
   name: "Chaitanya B Hebbal"
   avatar: "/assets/images/profile.jpg"
-  bio: "Student of Robotics and AI"
+  bio: "Compilers| Robotics | AI | Neuroscience"
   location: "Germany"
   links:
     - label: "LinkedIn"
