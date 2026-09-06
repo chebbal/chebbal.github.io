@@ -3,9 +3,10 @@ layout: single
 title: "Nuggets of Leadership 1 - Lessons from Sugreeva"
 date: 2024-05-04
 categories: 
-  - leadership
+  - ideas
 tags:
-  - Reflections
+  - leadership
+  - reflections
 ---
 I find the first meeting between Rama and Sugreeva to be filled with lessons for forging, setting expectations, assessing the capabilities and intent of the involved actors, that should be inculcated in our activities in everyday life, be it personal or professional. 
 

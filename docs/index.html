@@ -1,11 +1,55 @@
 ---
-layout: home
-author_profile: true
-entries_layout: list
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/blog-header.png
-  title: "Chay's Blog"
-  tagline: "Robotics · Edge AI · Ideas"
+layout: single
+title: ""
+permalink: /
+author_profile: false
 ---
+
+<section class="lab-hero" aria-labelledby="home-identity">
+  <h1 id="home-identity">Chaitanya B. Hebbal</h1>
+  <p class="lab-kicker">Robotics · AI Systems · Compilers</p>
+  <p>I build intelligent systems for constrained machines - from perception and inference to the runtimes and compilers underneath them.</p>
+  <p><strong>I write to understand what I'm building.</strong></p>
+</section>
+
+<section class="lab-explore" aria-labelledby="explore-heading">
+  <h2 id="explore-heading">Explore</h2>
+  <ul>
+    <li><a href="/writing/#ai-systems">AI Systems</a></li>
+    <li><a href="/writing/#robotics">Robotics</a></li>
+    <li><a href="/writing/#compilers">Compilers</a></li>
+    <li><a href="/research/">Research Notes</a></li>
+    <li><a href="/writing/#ideas">Ideas</a></li>
+    <li><a href="/writing/#building">Building</a></li>
+  </ul>
+</section>
+
+{% assign essays = site.posts | where: "essay", true %}
+{% if essays.size > 0 %}
+<section class="lab-listing" aria-labelledby="selected-work-heading">
+  <h2 id="selected-work-heading">Selected Work</h2>
+  <p class="section-note">Long-form essays on systems, robotics, AI infrastructure, and engineering judgment.</p>
+  <ul class="lab-post-list">
+    {% for post in essays limit:3 %}
+    <li>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <p class="meta">{{ post.date | date: "%b %d, %Y" }}{% if post.categories and post.categories.size > 0 %} · {{ post.categories[0] | replace: "-", " " | capitalize }}{% endif %} · {% include read-time.html content=post.content %}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="lab-listing" aria-labelledby="recent-writing-heading">
+  <h2 id="recent-writing-heading">Recent Writing</h2>
+  <ul class="lab-post-list">
+    {% for post in site.posts limit:6 %}
+    <li>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <p class="meta">{{ post.date | date: "%b %d, %Y" }}{% if post.categories and post.categories.size > 0 %} · {{ post.categories[0] | replace: "-", " " | capitalize }}{% endif %} · {% include read-time.html content=post.content %}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

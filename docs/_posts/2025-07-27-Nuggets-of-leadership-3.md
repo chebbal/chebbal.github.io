@@ -3,9 +3,10 @@ layout: single
 title: "Nuggets of Leadership 2 - Lessons from Hanuman"
 date: 2025-07-27
 categories: 
-  - leadership
+  - ideas
 tags:
-  - Reflections
+  - leadership
+  - reflections
 ---
 
 I strongly believe Ramayana is not just a story but for us bharatiyas it is our ithihasa and our guide to create a fruitful life for oneself and others around us. It presents us with numerous templates and references for us to choose **from** and create personalized **recipes** that match our **temperament** and innate nature. If imbibed, it enables us to overcome any limitations that we have programmed our mind to believe and help us create a life that we have envisioned for ourselves and our people. As a short note, The **definition** of "our" varies from person to person, The bigger the circumference of this "our" circle, the greater the impact we can have in our lives.

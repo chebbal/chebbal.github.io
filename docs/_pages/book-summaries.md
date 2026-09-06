@@ -1,13 +1,13 @@
 ---
-title: "Book Summaries"
+title: "Ideas Worth Stealing"
 permalink: /book-summaries/
 layout: single
 author_profile: false
 ---
 
-A collection of book summaries and key insights from my reading journey.
+This route is preserved for older links. These posts are framed as ideas extracted from books and applied to engineering, leadership, and building systems.
 
-{% assign book_posts = site.posts | where: 'categories', 'book-summary' %}
+{% assign book_posts = site.posts | where_exp: "post", "post.tags contains 'books'" %}
 
 {% if book_posts.size > 0 %}
 <ul class="posts-list">
@@ -22,9 +22,4 @@ A collection of book summaries and key insights from my reading journey.
   </li>
   {% endfor %}
 </ul>
-{% else %}
-<div class="notice--info">
-  <h4>No Book Summaries Yet</h4>
-  <p>Check back soon for book summaries and insights!</p>
-</div>
 {% endif %}

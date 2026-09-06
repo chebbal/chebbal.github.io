@@ -4,8 +4,8 @@ date: 2026-04-19
 last_modified_at: 2026-04-20
 toc: true
 toc_sticky: true
-categories: book-summary
-tags: [leadership, wip]
+categories: ideas
+tags: [leadership, wip, books]
 layout: single
 author_profile: false
 ---

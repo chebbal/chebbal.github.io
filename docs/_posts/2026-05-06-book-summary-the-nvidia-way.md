@@ -1,11 +1,11 @@
 ---
-title: "The NVIDIA way"
+title: "The NVIDIA Way - 6 Engineering Principles Worth Stealing"
 date: 2026-05-06
 last_modified_at: 2026-05-15
 toc: true
 toc_sticky: true
-categories: book-summary
-tags: [leadership, wip]
+categories: ideas
+tags: [leadership, wip, books]
 layout: single
 author_profile: false
 ---

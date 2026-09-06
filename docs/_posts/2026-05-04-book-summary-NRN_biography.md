@@ -4,8 +4,8 @@ date: 2026-05-04
 last_modified_at: 2026-05-04
 toc: true
 toc_sticky: true
-categories: book-summary
-tags: [biography, business]
+categories: ideas
+tags: [biography, business, books]
 layout: single
 author_profile: false
 ---

@@ -3,8 +3,8 @@ title: "Asking the Right Questions"
 date: 2025-10-08
 toc: true
 toc_sticky: true
-categories: book-summary
-tags: [critical-thinking]
+categories: ideas
+tags: [critical-thinking, books]
 layout: single
 author_profile: false
 ---

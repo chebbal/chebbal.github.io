@@ -1,6 +1,6 @@
-title: Chay's Blog
+title: Chaitanya B. Hebbal
 description: >-
-  A blog on my reflections, experiments, and learnings.
+  A personal research lab on robotics, AI systems, and compilers.
 domain: "itschebbal.in"
 baseurl: ""
 url: "https://itschebbal.in"
@@ -26,33 +26,31 @@ plugins:
   - jekyll-seo-tag
 
 # Theme settings
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "default"
 search: true
 locale: "en-US"
 
 # Author
 author:
-  name: "Chaitanya B Hebbal"
+  name: "Chaitanya B. Hebbal"
   avatar: "/assets/images/avatar.png"
-  bio: "Compilers · Robotics · AI"
+  bio: "Robotics · AI Systems · Compilers"
   location: "Germany"
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/chaitanya-hebbal-21985339/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chebbal"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chaitanya-hebbal-21985339/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/HebbalChaitanya"
 
 # Homepage header
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  title: "Chay's Blog"
-  tagline: "Robotics · Edge AI · Ideas"
+  title: "Chaitanya B. Hebbal"
+  tagline: "Robotics · AI Systems · Compilers"
 
 # Pagination
 paginate: 5
@@ -71,14 +69,20 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
+      show_date: true
+      classes: wide
+      toc: false
       share: true
-      related: true
+      related: false
+      pagination: true
+      comments: false
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: false
+      classes: wide
   - scope:
       path: ""
       type: logs
@@ -119,7 +123,14 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chebbal"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chaitanya-hebbal-21985339/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:chaitanya.b.hebbal@gmail.com"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss"
+      url: "/feed.xml"
 
-# Scripts
-after_footer_scripts:
-  - /assets/js/vendor/jquery/jquery-3.5.1.min.js
+logo: "/assets/images/avatar.png"

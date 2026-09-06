@@ -3,10 +3,10 @@ layout: single
 title: My take on PM Modi's public address in Vienna 
 date: 2024-08-27
 categories: 
-  - leadership
-  - Reflections
+  - ideas
 tags:
-  - Reflections
+  - leadership
+  - reflections
 ---
 
 

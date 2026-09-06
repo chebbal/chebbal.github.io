@@ -3,9 +3,9 @@ layout: single
 title: "Two stand-out conversations from Dhurandhar"
 date: 2026-04-19
 categories: 
-  - Thoughts
+  - ideas
 tags:
-  - Reflections
+  - reflections
 ---
 
 Dhurandhar has hit a bull's eye in terms of writing and execution, that boldly takes a stand and fleshes out the content based on its belief. It beautifully links the real-world events with suitable connectives (real and imagined) to make the significant events (IC814, Parliament attack, 26/11, demonetisation, Khalistan etc.) more relatable and understandable to the general public. This series of films will be on my rewatch list for years to come. There were many standout moments, but the two that stood out for me are: 1. The conversation between Jaskirat and Sanyal at the beginning, and 2. The conversation between Sanyal and the ISI chief at the end — both from the second film of the series.

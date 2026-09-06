@@ -2,10 +2,12 @@
 layout: single
 title: "DDS Mental Model - A reference"
 date: 2026-04-20
-categories: 
-  - robotics
+categories:
+    - robotics
+    - research-notes
 tags:
-  - networks
+    - networks
+    - systems
 ---
 
 ## Mental Model
