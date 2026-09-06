@@ -1,0 +1,8 @@
+{% assign words = include.content | strip_html | number_of_words %}
+{% assign wpm = site.words_per_minute | default: 200 %}
+{% assign minutes = words | plus: wpm | minus: 1 | divided_by: wpm %}
+{% if minutes <= 1 %}
+1 min read
+{% else %}
+{{ minutes }} min read
+{% endif %}
