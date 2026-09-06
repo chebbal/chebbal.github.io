@@ -8,48 +8,40 @@ author_profile: false
 <section class="lab-hero" aria-labelledby="home-identity">
   <h1 id="home-identity">Chaitanya B. Hebbal</h1>
   <p class="lab-kicker">Robotics · AI Systems · Compilers</p>
-  <p>I build intelligent systems for constrained machines - from perception and inference to the runtimes and compilers underneath them.</p>
-  <p><strong>I write to understand what I'm building.</strong></p>
+  <p>I build intelligent systems for constrained machines —<br>from perception and inference to the runtimes and<br>compilers underneath them.</p>
+  <p class="lab-tagline">I write to understand what I'm building.</p>
+  <nav class="lab-hero-nav" aria-label="Site sections">
+    <a href="/writing/">Writing</a>
+    <a href="/research/">Research</a>
+    <a href="/about/">About</a>
+    <a href="/now/">Now</a>
+  </nav>
 </section>
 
-<section class="lab-explore" aria-labelledby="explore-heading">
-  <h2 id="explore-heading">Explore</h2>
-  <ul>
+<hr class="lab-divider">
+
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% if featured_posts.size > 0 %}
+<section class="lab-featured" aria-labelledby="featured-heading">
+  <h2 id="featured-heading">Featured</h2>
+  <ul class="lab-featured-list">
+    {% for post in featured_posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title | split: " - " | first }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<hr class="lab-divider">
+{% endif %}
+
+<section class="lab-topics" aria-labelledby="topics-heading">
+  <h2 id="topics-heading">Topics</h2>
+  <ul class="lab-topics-grid">
     <li><a href="/writing/#ai-systems">AI Systems</a></li>
     <li><a href="/writing/#robotics">Robotics</a></li>
     <li><a href="/writing/#compilers">Compilers</a></li>
     <li><a href="/research/">Research Notes</a></li>
     <li><a href="/writing/#ideas">Ideas</a></li>
     <li><a href="/writing/#building">Building</a></li>
-  </ul>
-</section>
-
-{% assign essays = site.posts | where: "essay", true %}
-{% if essays.size > 0 %}
-<section class="lab-listing" aria-labelledby="selected-work-heading">
-  <h2 id="selected-work-heading">Selected Work</h2>
-  <p class="section-note">Long-form essays on systems, robotics, AI infrastructure, and engineering judgment.</p>
-  <ul class="lab-post-list">
-    {% for post in essays limit:3 %}
-    <li>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      <p class="meta">{{ post.date | date: "%b %d, %Y" }}{% if post.categories and post.categories.size > 0 %} · {{ post.categories[0] | replace: "-", " " | capitalize }}{% endif %} · {% include read-time.html content=post.content %}</p>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-
-<section class="lab-listing" aria-labelledby="recent-writing-heading">
-  <h2 id="recent-writing-heading">Recent Writing</h2>
-  <ul class="lab-post-list">
-    {% for post in site.posts limit:6 %}
-    <li>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      <p class="meta">{{ post.date | date: "%b %d, %Y" }}{% if post.categories and post.categories.size > 0 %} · {{ post.categories[0] | replace: "-", " " | capitalize }}{% endif %} · {% include read-time.html content=post.content %}</p>
-    </li>
-    {% endfor %}
   </ul>
 </section>

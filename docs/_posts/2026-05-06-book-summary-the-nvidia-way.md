@@ -8,6 +8,7 @@ categories: ideas
 tags: [leadership, wip, books]
 layout: single
 author_profile: false
+featured: true
 ---
 
 # NVIDIA: The Philosophy Behind the World's Most Valuable Company

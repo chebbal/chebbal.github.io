@@ -7,6 +7,7 @@ categories:
 tags:
   - leadership
   - reflections
+featured: true
 ---
 
 I recently came across an address to youth in a Youth conclave by our longest serving NSA Shri. Ajit Doval ji. It was a 30-minute address that beautifully emphasized one of finest qualities of a leader i.e **"The ability to not only take right decisions at the right time, but the ability to see through and make those decisions right"**. I could not help myself to take copious amount of notes from the address. This is my summary of takeaways from this address for my future self, I believe I will come back to these learnings from time to time.

@@ -8,6 +8,7 @@ categories:
 tags:
     - networks
     - systems
+featured: true
 ---
 
 ## Mental Model
